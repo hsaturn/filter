@@ -82,6 +82,7 @@ int main(int argc, const char* argv[])
 			cerr << "  -p  #        value for peak curve" << endl;
 			cerr << "  -w  #        average window" << endl;
 			cerr << endl << endl;;
+			return -1;
 		}
 		else if (arg == "-ns")  steps     = false;
 		else if (arg == "-s")   steps     = true;
